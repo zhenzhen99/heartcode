@@ -1,0 +1,46 @@
+@font-face{
+    font-family: unicorn;
+    src: url(unicorn_calligraphy/unicorn.ttf)
+}
+
+@font-face{
+    font-family: title;
+    src: url(coal-hand-luke/CoalhandLuke.ttf)
+}
+
+
+.clk h1 {
+    text-align: center;
+    color: black;
+    font-family: unicorn;
+
+}
+
+.tpe  {
+    text-align: center;
+    color: black;
+    font-family: title;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.events{
+    background-color: lightyellow
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5
+
+}
+
+.container {
+    z-index: -1
+}
