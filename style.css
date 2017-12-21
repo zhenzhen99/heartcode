@@ -5,31 +5,69 @@
 
 @font-face{
     font-family: title;
-    src: url(coal-hand-luke/CoalhandLuke.ttf)
+    src: url(dk_uncle_edward/uncle.otf)
+}
+
+@font-face{
+    font-family: standard;
+    src: url(cardenio_modern/Cardenio.ttf)
+}
+
+@font-face{
+    font-family: pt;
+    src: url(millennial_solstice/Millennial.otf)
+}
+
+@font-face{
+    font-family: nav;
+    src: url(hastoler/Hastoler1.otf)
 }
 
 
+
+
+.et{
+    font-family: pt;
+}
+
+.pc p {
+    text-align: center;
+    font-family: standard;
+    font-size: 30px;
+}
+
+.pc1 li  {
+    text-align: center;
+    font-family: standard;
+}
 .clk h1 {
     text-align: center;
     color: black;
     font-family: unicorn;
+    font-size: 40px;
 
 }
 
 .tpe  {
     text-align: center;
-    color: black;
+    color: rgb(238, 108, 108);
     font-family: title;
+    font-size: 70px;
 
 }
+
 
 .text-center{
     text-align: center;
 }
 
+.placecontent{
+    text-align: center;
+}
+
 
 .events{
-    background-color: lightyellow
+    background-color: rgba(212, 223, 226, 0.507)
 }
 
 .navbar{
@@ -37,10 +75,53 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 5
+    z-index: 5;
+    font-family:nav;
+    font-size: 25px;
+    
 
 }
 
 .container {
     z-index: -1
 }
+
+.list {
+    list-style-type: circle;
+    text-align: left
+}
+
+
+#bs-example-navbar-collapse-1 {
+    padding-left: 67%
+}
+
+.navbar-default {
+    padding-bottom: 15px;
+    opacity: 0.8;
+}
+
+.navbar-inverse .navbar-nav li a{
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+    font-size: 35px;
+    padding: 5px;
+}
+
+footer {
+    padding: 5px;
+
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+
+footer h1 {
+    color: rgb(0, 0, 0);
+    font-family: nav;   
+    margin: 0px; 
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur197.ani), url(http://cur.cursors-4u.net/cursors/cur-2/cur197.png), progress !important;} /* End http://www.cursors-4u.com */
