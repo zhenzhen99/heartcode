@@ -114,14 +114,17 @@
 footer {
     padding: 5px;
 
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     width: 100%;
 }
 
 footer h1 {
-    color: rgb(0, 0, 0);
+    color: rgba(253, 83, 83, 0.747);
     font-family: nav;   
     margin: 0px; 
 }
 /* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur197.ani), url(http://cur.cursors-4u.net/cursors/cur-2/cur197.png), progress !important;} /* End http://www.cursors-4u.com */
+
+
+
